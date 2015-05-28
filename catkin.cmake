@@ -24,6 +24,7 @@ include_directories(
 link_directories(
     ${OMPL_LIBRARY_DIRS}
     ${catkin_LIBRARY_DIRS}
+    ${OpenRAVE_LIBRARY_DIRS}
 )
 add_definitions(
   ${EIGEN_DEFINITIONS}
